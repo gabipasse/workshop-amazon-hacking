@@ -6,10 +6,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Link download ollama (default: cpu)
-# https://ollama.com/download
+# ollama.com/download
 
 # Link pinecone
-# https://www.pinecone.io/
+# pinecone.io
+
+# Link langsmith
+# smith.langchain.com
 
 # Nos imports e objetos, é importante sair dando "." em tudo para conseguir perceber
 # todas as possibilidades existentes. Checar atributos, métodos, módulos, etc.
