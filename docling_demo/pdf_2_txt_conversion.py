@@ -10,11 +10,11 @@ def converter_pdf_2_txt(path_pdf: str) -> str:
 
 
 def main():
-    path_pdf = r".\pdf_exemplo_fonte.pdf"
+    path_pdf = r"docling_demo\pdf_exemplo_fonte.pdf"
     txt_output = converter_pdf_2_txt(path_pdf)
     print(txt_output)
 
-    path_txt = "txt_convertido.txt"
+    path_txt = r"docling_demo\txt_convertido.txt"
 
     with open(path_txt, "w") as file:
         file.write(txt_output)
