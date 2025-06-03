@@ -18,6 +18,7 @@ load_dotenv()
 
 if __name__ == "__main__":
 
+    # Pode modificar parametros como temperatura, top_p e top_k
     llm = ChatOllama(model="llama3")
     query = "What is pinecone in machine learning?"
 
